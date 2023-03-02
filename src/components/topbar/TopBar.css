@@ -1,0 +1,76 @@
+.topbar_main {
+    background-color: #F5F5F5;
+    height: 50px;
+    display: flex;
+
+}
+
+.topbar_main p {
+   padding-top: 1em;
+   padding-left: 2em;
+   font-size: 15px;
+   font-weight: 500;
+   width: 600px;
+    
+}
+
+.topbar_main select {
+    background-color: transparent;
+    border: none;
+}
+
+
+.topbar_main select:focus {
+    outline: none;
+}
+
+.topbar_left {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+
+.topbar_left a {
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-top: 1em;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.topbar_left select {
+    margin-left: 2em;
+    cursor: pointer;
+ 
+}
+
+
+.topbar_left select:hover {
+    color: #006CD1;
+}
+
+.topbar_left a:hover {
+    color: #006CD1;
+}
+
+.line {
+    content: "";
+    transform: rotate(180deg);
+    border: 1px dotted rgb(219, 204, 204);
+    border-width: thin;
+    margin-left: 1em;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    
+    
+
+}
+
+@media only screen and (max-width: 768px) {
+    .topbar_main {
+     display: none;
+    }
+  }

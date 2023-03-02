@@ -1,0 +1,9 @@
+.side_bar {
+    display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+    .side_bar {
+     display: block;
+    }
+  }

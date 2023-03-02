@@ -1,0 +1,155 @@
+.navbar_main {
+    display: flex;
+}
+
+.logo {
+    margin-top: 1em;
+    margin-left: 2em;
+    height: 40px;
+}
+
+
+.form button {
+    width: 80px;
+    height: 48px;
+    border: none;
+    background-color: #0646BC;
+    cursor: pointer;
+    position: relative;
+    right: 0px;
+    top: 0px;
+    left: 100%;
+   border-top-right-radius: 0.3em;
+   border-bottom-right-radius: 0.3em;
+    
+}
+
+.form button:hover {
+    background-color: #FFE000;
+}
+
+
+
+.form button:hover {
+    transition: 0.3s;
+}
+
+.navbar_last {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+
+.navbar_last a {
+    width: 100px;
+    padding-top: 1.2em;
+    margin-left: 0.3em;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.navbar_last p {
+    background-color: #0646BC;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 50%;
+    position: relative;
+    left: 35px;
+}
+
+.navbar_last a:hover {
+    color: #006CD1;
+    cursor: pointer;
+}
+
+
+nav {
+    margin-top: 2em;
+    border: 1px dotted  rgb(219, 204, 204);
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+}
+
+nav ul {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+nav li a {
+    text-decoration: none;
+    margin-left: 2em;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+
+}
+
+nav li a:hover {
+    color: #006CD1;
+    opacity: 1;
+    
+}
+
+
+.contact_us {
+    display: flex;
+    padding-right: 2em;
+} 
+
+.contact_us p {
+    width: 200px;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.contact_us span {
+    color: #006CD1;
+    font-weight: 900;
+    font-size: 14px;
+}
+.tooltip {
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: auto;
+    background-color: rgba(2, 1, 1, 0.705);
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+   
+  
+    /* Position the tooltip */
+    position: relative;
+    z-index: 1;
+    left: 60px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .navbar_main {
+     display: block;
+    }
+    nav {
+        display: none;
+    }
+    .navbar_last {
+        margin-left: 1em;
+    }
+    .form button {
+        width: 70px;
+    }
+
+    .form  button img {
+        width: 25px;
+    }
+  }
+

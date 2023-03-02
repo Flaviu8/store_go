@@ -1,0 +1,102 @@
+.banners_main {
+    display: flex;
+    margin-left: 1.5em;
+    margin-top: 2em;
+}
+
+.banners_main_left {
+    display: block;
+}
+
+.banners_left{
+    background-image: url("https://cdn.shopify.com/s/files/1/0257/0492/3199/files/1_5d5e0c85-82c2-4dcb-a5d9-c2b49b26acbe.jpg?v=1646455905");
+    width: 1000px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.2s ease;
+}
+.banners_left:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+   transition: all 5s ease;
+}
+
+.banners_bottom {
+    display: flex;
+}
+
+.banners_bottom_left {
+    background-image: url("https://cdn.shopify.com/s/files/1/0257/0492/3199/files/1_6c9a78ec-ed57-46ac-9c02-191e766c2e0b.jpg?v=1646455928");
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    margin-top: 1em;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.2s ease;
+}
+
+.banners_bottom_left:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 5s ease;
+ }
+
+.banners_bottom_right {
+    background-image: url("https://cdn.shopify.com/s/files/1/0257/0492/3199/files/2_fbdd9bee-b23a-409f-9fe4-17d1b3e1b49b.jpg?v=1646455940");
+    width: 485px;
+    height: 300px;
+    margin-left: 1em;
+    background-repeat: no-repeat;
+    border-radius: 0.3em;
+    margin-top: 1em;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.2s ease;
+}
+
+.banners_bottom_right:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 5s ease;
+ }
+
+.banners_right {
+    background-image: url("https://cdn.shopify.com/s/files/1/0257/0492/3199/files/1_f80871d9-49ea-4d1d-a978-a15d3470c94f.jpg?v=1646455955");
+    width: 500px;
+    margin-left: 2em;
+    background-repeat: no-repeat;
+    border-radius: 0.3em;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.2s ease;
+ }
+ .banners_right:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 5s ease;
+ }
+
+ .banner_inner {
+    padding-top: 3em;
+    padding-left: 2em;
+ }
+
+ .banner_inner h4 {
+    font-size: 25px;
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+ }
+
+ .banner_inner P {
+    color: grey;
+ }
+
+ .banner_inner a {
+    color: #0746BC;
+    font-size: 18px;
+    font-weight: 500;
+ }
+

@@ -1,0 +1,127 @@
+.thumbs  {
+    display: none;
+}
+
+.carousel-slider {
+    width: 1200px !important;
+    margin-left: 2em !important;
+    margin-top: 0.8em !important;
+    border-radius: 0.4em;
+}
+
+.slides img {
+    width: auto;
+    height: 550px;
+}
+
+.control-arrow {
+    display: none;
+}
+
+.carousel-status {
+    display: none;
+}
+
+.dot {
+    background-color: #FFFFFF !important;
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.dot:focus {
+    background-color: #0143B5 !important;
+}
+
+.slider-wrapper ul {
+    transition: 0.8s !important;
+}
+
+.inner_banner {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.inner_banner h5 {
+    color: grey;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+}
+.inner_banner h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    margin-top: 10px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.inner_banner p {
+    color: grey;
+    width: 480px;
+    font-size: 14px;
+    line-height: 1.8em;
+    text-align: left;
+    margin-top: 1.5em;
+}
+
+.inner_banner button {
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 0.4em;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0746BC !important;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.inner_banner button:hover {
+  background-color: #FFE001 !important;
+  color: black;
+  transition: 0.6s;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel-slider {
+     width: 95% !important;
+     margin:auto !important;
+    }
+    .slides img {
+        height: 240px;
+    }
+    .inner_banner {
+        top: 20px;
+        left: 20px;
+    }
+    .inner_banner button {
+        margin-top: 0.8em;
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .inner_banner p {
+        display: none;
+    }
+    .inner_banner h1 {
+        width: 200px;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 0.1em;
+    }
+
+    .inner_banner h5 {
+        font-size: 15px;
+    }
+  }
+
+
